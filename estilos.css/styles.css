@@ -1,37 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Poppins:wght@400;700&display=swap');
 
 
-body{
+body {
     background-color: rgba(188, 228, 228, 0.363);
 
 }
 
-.logo{
+.logo {
     margin-right: 10px;
 }
 
-.hero{
-    display:flex;
+.hero {
+    display: flex;
     gap: 30 px;
     background-color: rgba(188, 228, 228, 0.363);
 }
 
-.hero img{
+.hero img {
     padding: 10px;
 }
 
-.hero-content{
+.hero-content {
     padding: 60px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .carousel-inner .carousel-item {
     height: 700px;
 }
-.carousel-item img{
+
+.carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -46,7 +47,7 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     margin: 10px;
-    
+
 }
 
 h3 {
@@ -64,14 +65,14 @@ p {
 
 
 /*Personal*/
-.container-staff{
-    display:flex;
+.container-staff {
+    display: flex;
     width: 300px;
     flex-direction: column;
     background-color: rgba(188, 228, 228, 0.363);
 }
 
-.staff-info{
+.staff-info {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -79,25 +80,29 @@ p {
     justify-content: center;
     align-items: center;
     background-color: rgba(89, 230, 215, 0.322);
+
 }
 
-
-.staff-info h2{
+.staff-info h2 {
     font-size: 24px;
 }
 
-.staff img{
+.staff img {
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
-.staff{
+.staff {
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-around;
+}
+
+.staff img:hover {
+    border: 5px solid white;
 }
 
 /*galeria*/
@@ -108,6 +113,7 @@ p {
 #galeria img {
     width: 100%;
     height: 240px;
+    border-radius: 5%;
 }
 
 #galeria img:hover {
@@ -125,6 +131,132 @@ p {
 
 #video iframe:hover {
     border: 5px solid white;
+}
+
+/*contactanos*/
+
+.map {
+    padding: 10px;
+    height: 600px;
+    
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 6em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+input,
+textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+.contacto {
+    display: flex;
+    background-color: rgba(188, 228, 228, 0.363);
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(38, 213, 236);
+}
+
+
+
+
+/*Terapias*/
+.text{
+    display: flex;
+    background-color: rgba(1, 78, 71, 0.322);
+    margin-bottom: 20px;
+    
+
+}
+
+.text-content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.text-content a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(1, 13, 15);
+    font-size: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 240, 241);
+    background-color: rgb(15, 150, 155);
+    width: 150px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(57, 187, 238);
+}
+
+.text-content h2, .text-content p{
+    text-align: center;
+    
 }
 
 
